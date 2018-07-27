@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <title>Round 1 - Instructions</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/bootstrap.min.js"></script>
+<script src="./js/jquery.validate.min.js"></script>
+<link href="./css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style>
+        .ins_border{
+            border-style: ridge;
+            border-radius: 5px;
+            border-color: black;
+            background-color: #ffe6e6;
+            opacity:0.8;
+        }
+        
+        body{
+            height: 100%;
+            background-image: url('./pictures/rawpixel-191157-unsplash.jpg');
+            background-position: 5% 5%; 
+            background-size: cover;
+            background-repeat: no-repeat;
+  
+        }
+        
+            
+            h1{
+                font-family: beyond;
+                font-size: 70px;
+            }
+            
+            .btn {
+                background-color: black;
+                border: 1px solid;
+                color: white;
+                padding: 10px 24px;
+                border-radius: 8px;
+                text-align: center;
+                display: inline-block;
+                font-size: 16px;
+            }
+             @font-face{
+           font-family: "beyond";
+            src:url('./fonts/Beyond Wonderland.ttf');
+            }
+            
+            #search_area {
+    top: 1%;
+    left: 25%;
+    padding: 3%;
+    height: auto;
+    width: 50%;
+    box-sizing: border-box;
+    opacity: 0.8;
+    position:absolute;
+    z-index: 2;
+
+}
+        </style>
+    <body>
+        <div class="panel panel-default" id="search_area">
+        <div class="panel-heading">
+        <h1><center>Instructions</center></h1>
+        </div>
+            <div class="panel-body">
+        <form action="test_page.php">
+        
+            <p>Please read these instructions carefully before starting the test.</p>
+            <ol start="1" type="1">
+                <li>This is an individual task session.</li>
+                <li>The test contains 40 MCQ questions with 4 choices each related to HTML, CSS and other web designing concepts.</li>
+                <li>Once you click the START TEST button in this page , the test will begin.</li>
+                <li>The time limit for the test will be 45 minutes. When the time is over, your answers will be submitted for evaluation.</li>
+                <li>If you have completed the test before the alloted time, then you can submit your answers by clicking the FINISH button at the end of the test page.</li>
+                <li>Any form of plagarism will not be entertained. If so found, the candidate will be disqualified.</li>
+                <li>Navigation to a new tab will automatically cause the test to end and will submit the test for result evaluation.</li>
+            </ol>
+            <p><center>All the best!!!!</center></p>
+        <br>
+        <div class="panel-footer">
+        <button class="btn">Start Test</button>
+        </div>
+        </form>
+                </div></div>
+    </body>
+</html>
