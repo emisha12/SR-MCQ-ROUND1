@@ -109,7 +109,7 @@ img{
 }
 
 #search_area {
-    top: 20%;
+    top: 15%;
     left: 30%;
     padding: 3%;
     height: auto;
@@ -118,6 +118,10 @@ img{
     opacity: 0.8;
     position: absolute;
     z-index: 2;
+}
+
+p{
+    font-family: "Times new roman";
 }
 </style>
 <body>
@@ -139,7 +143,7 @@ img{
     <div class="panel panel-default" id="search_area">
                 <div classs="panel-body">
     <form action="register.php" style="max-width:500px;margin:auto" method="post">
-        <h4>ROUND - 1</h4>
+        <h4>Round - 1</h4>
         <div class="input-container">
             <i class="fa fa-user icon"></i>
             <input class="input-field" type="text" placeholder="Username" name="usrnm" required>
@@ -177,6 +181,13 @@ img{
         </center>
     </form>
 </div>
+        <div class='header container-fluid'>
+        <div class=" navbar-fixed-bottom navbar-inverse">
+            <p class="text-center" id="foot">
+            &copy;Hashtagg 2k18.
+            </p>
+        </div>
+        </div>
                 </div>
 </div>
 </div>

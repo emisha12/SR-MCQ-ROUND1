@@ -32,9 +32,8 @@ footer p{padding-top:50px;}
 .result-container{margin-left: 40%;margin-top:1%; color:#684B68;}
 .logout{padding-top:100px;background: skyblue;border: 1px solid;
     color: black;}
-.next{margin-left:200px; background: skyblue;
-      border: 1px solid;
-    color: black;}
+.next{margin-left:200px; 
+      }
 .answer{color:green;font-weight: 300;font-size: larger; }
 .result{height: 452px;}
 #timer{ float:right;padding: 5px 20px 0 0;}
